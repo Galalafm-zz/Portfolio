@@ -1,0 +1,633 @@
+/** MEDIA QUERIES **/
+
+/* Home */
+
+@media screen and (max-width: 1600px) {
+
+  .Container_Image {
+    width: 35%;
+    margin-left: 46%;
+  }
+
+  .-active {
+    overflow: visible;
+  }
+
+  .Container_Image img {
+    margin-top: -4%;
+    width:180%;
+  }
+
+  .Container_Text {
+    width:28%;
+    margin-left: 15%;
+  }
+
+  .Container_Text_Works {
+    width:28%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+
+  .Container_Line2 {
+    margin-top: -1.5%;
+  }
+
+  .Container_Text {
+    width:30%;
+  }
+
+  .Container_Text_Works {
+    width:30%;
+  }
+
+  .Text_Button {
+    padding:0 0 0 35px;
+  }
+
+  .Container_Footer {
+    padding-top: 18%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  .Container_Line2 {
+    margin-top: -1.8%;
+  }
+
+  .Container_Line1 {
+    height:180px;
+    margin-right: 7.7%;
+    margin-top: -4%;
+  }
+
+  .Container_Image img {
+    margin-top: -5%;
+    margin-left: -47%;
+    width:190%;
+  }
+
+  .Container_Text h1 {
+    margin: 15% 0 0 0;
+  }
+
+  .Container_Text {
+    width:31%;
+  }
+
+  .Container_Text_Works h1 {
+    margin: 15% 0 0 0;
+  }
+
+  .Container_Text_Works {
+    width:31%;
+  }
+
+  .Text_Button {
+    padding:0 0 0 33px;
+  }
+
+  .Container_Footer {
+    padding-top: 23%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .Container_Name {
+    width:23%;
+  }
+
+  .Container_Line1 {
+    margin-right: 10.7%;
+  }
+
+  .Container_Line2 {
+    margin-top: -2%;
+  }
+
+  .Container_Image img {
+    margin-top: -2%;
+    margin-left: -53%;
+    width:199%;
+  }
+
+  .Container_Text h1 {
+    margin: 15% 0 0 -5%;
+    font-size:3.5em;
+  }
+
+  .Container_Text p {
+    width:70%;
+  }
+
+  .Container_Text {
+    width:34%;
+  }
+
+  .Container_Text_Works h1 {
+    margin: 15% 0 0 -5%;
+    font-size:3.5em;
+  }
+
+  .Container_Text_Works p {
+    width:70%;
+  }
+
+  .Container_Text_Works {
+    width:34%;
+  }
+
+  .Container_Footer {
+    padding-top: 24%;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .Container_Name {
+    width:25%;
+  }
+
+  .Container_Line1 {
+    margin-right: 12.5%;
+  }
+
+  .Container_Line2 {
+    margin-top: -4.8%;
+  }
+
+  .Container_Image img {
+    margin-top: 0%;
+    margin-left: -55%;
+    width:200%;
+  }
+
+  .Container_Text h1 {
+    margin: 15% 0 0 -5%;
+    font-size:3em;
+  }
+
+  .Container_Text h4 {
+    font-size:0.8em;
+  }
+
+  .Container_Text p {
+    width:65%;
+    font-size:1.4em;
+  }
+
+  .Container_Text_Works h1 {
+    margin: 15% 0 0 -5%;
+    font-size:3em;
+  }
+
+  .Container_Text_Works h4 {
+    font-size:0.8em;
+  }
+
+  .Container_Text_Works p {
+    width:65%;
+    font-size:1.4em;
+  }
+
+  .Container_Footer {
+    padding-top: 31%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  .Container_Name {
+    width:28%;
+  }
+
+  .Container_Line1 {
+    margin-right: 15.5%;
+  }
+
+  .Container_Line2 {
+    border:0px;
+  }
+
+  .Container_Image {
+    width:40%;
+    margin:auto;
+    margin-top:-5%;
+  }
+
+  .Container_Image img {
+    margin-top: -10%;
+    margin-left: -45%;
+    width:180%;
+  }
+
+  .Container_Text {
+    width:60%;
+    margin-top: 38.1%;
+    position: absolute;
+    z-index:1;
+  }
+  .Container_Text h1 {
+    margin: 0% 0 0 10%;
+    font-size:3em;
+  }
+
+  .Container_Text h4 {
+    font-size:0.8em;
+    margin: 5% 0 0 15%;
+  }
+
+  .Container_Text p {
+    width:75%;
+    margin: 2% 0 0 15%;
+    font-size:1.2em;
+  }
+
+  .Container_Text_Works {
+    width:60%;
+    margin-top: 38.1%;
+    position: absolute;
+    z-index:1;
+  }
+  .Container_Text_Works h1 {
+    margin: 0% 0 0 10%;
+    font-size:3em;
+  }
+
+  .Container_Text_Works h4 {
+    font-size:0.8em;
+    margin: 5% 0 0 15%;
+  }
+
+  .Container_Text_Works p {
+    width:75%;
+    margin: 2% 0 0 15%;
+    font-size:1.2em;
+  }
+
+  .Container_Text_Button {
+    margin-top: 5%;
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .Text_Button {
+    margin:0;
+    padding:0 0 0 32px;
+  }
+
+  .Img_Button {
+    margin-left: 6%;
+  }
+
+  .Container_Button {
+    width:30%;
+    height:50px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+  }
+
+  .Container_Footer {
+    padding-top: 43%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .Container_Name {
+    width:30%;
+  }
+
+  .Container_Text {
+    margin-top: 37.5%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 37.5%;
+  }
+
+  .Container_Button {
+    width:34%;
+  }
+
+  .Container_Footer {
+    padding-top: 45%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .Container_Name {
+    width:38%;
+  }
+
+  .Container_Name h1 {
+    font-size: 1.4em;
+  }
+
+  .Container_Name h6 {
+    font-size: 0.8em;
+  }
+
+  .Container_Text {
+    margin-top: 36.8%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 36.8%;
+  }
+
+  .Container_Button {
+    width:38%;
+  }
+
+  .Container_Footer {
+    padding-top: 47%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .Container_Name {
+    width:38%;
+  }
+
+  .Container_Line1 {
+    margin-top: -5%;
+  }
+
+  .Container_Image {
+    width:45%;
+    margin:auto;
+    margin-top:-5%;
+  }
+
+  .Container_Image img {
+    margin-top: -10%;
+    margin-left: -45%;
+    width:180%;
+  }
+
+  .Container_Text {
+    margin-top: 41.1%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 41.1%;
+  }
+
+  .Container_Button {
+    width:42%;
+  }
+
+  .Container_Footer {
+    padding-top: 52%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .Container_Name {
+    width:42%;
+  }
+
+  .Container_Menu_Burger {
+    display:block;
+    margin-left: 60%;
+    width:50px;
+  }
+
+  .Container_Menu_List {
+    display:none;
+  }
+
+  .Container_Line1 {
+    margin-top: -5%;
+  }
+
+  .Container_Image {
+    width:50%;
+  }
+
+  .Container_Text {
+    margin-top: 44.8%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 44.8%;
+  }
+
+  .Container_Button {
+    width:48%;
+  }
+
+  .Container_Footer {
+    padding-top: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .Container_Name {
+    width:45%;
+  }
+
+  .Container_Name h1 {
+    font-size: 1.2em;
+  }
+
+  .Container_Menu_List li {
+    font-size: 0.8em;
+  }
+
+  .Container_Line1 {
+    margin-top: -8%;
+  }
+
+  .Container_Image {
+    width:70%;
+  }
+
+  .Container_Menu_Burger {
+    width:45px;
+  }
+
+  .Container_Text {
+    margin:auto;
+    margin-top: 62%;
+    width:80%;
+  }
+
+  .Container_Text_Works {
+    margin:auto;
+    margin-top: 62%;
+    width:80%;
+  }
+
+  .Container_Button {
+    width:43%;
+  }
+
+  .Container_Footer {
+    padding-top: 68%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .Container {
+    margin: 30px 30px 0px 20px;
+  }
+
+  .Container_Button {
+    width:47%;
+  }
+
+  .Container_Footer {
+    padding-top: 70%;
+  }
+
+  .Menu_Burger_List {
+    margin:63% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .Container_Button {
+    width:50%;
+  }
+
+  .Menu_Burger_List {
+    margin:70% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .Container_Image {
+    width:80%;
+  }
+
+  .Container_Menu_Burger {
+    width:40px;
+  }
+
+  .Container_Text {
+    margin-top: 68.1%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 68.1%;
+  }
+
+  .Menu_Burger_List {
+    margin:75% 0 0 0;
+  }
+
+  .Container_Button {
+    width:59%;
+    margin-right: -17%;
+  }
+
+  .Container_Footer {
+    padding-top: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .Container {
+    margin: 20px 10px 0px 10px;
+  }
+
+  .Container_Image {
+    width:70%;
+    margin-top: -20%;
+  }
+
+  .Container_Text {
+    margin-top: 58.1%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 58.1%;
+  }
+
+  .Container_Menu_Burger {
+    width:38px;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+
+  #Menu_Burger_Close{
+    margin-left: 86%;
+    margin-top: 6%;
+    width:31px;
+  }
+
+  .Container_Button {
+    width:63%;
+    margin-right: -19%;
+    margin-top: 10%;
+  }
+
+  .Menu_Burger_List {
+    margin:45% 0 0 0;
+  }
+
+  .Container_Footer {
+    padding-top: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .Container {
+    margin: 20px 10px 0px 10px;
+  }
+
+  .Container_Image {
+    width:70%;
+    margin-top: -20%;
+  }
+
+  .Container_Text {
+    margin-top: 58.1%;
+  }
+
+  .Container_Text_Works {
+    margin-top: 58.1%;
+  }
+
+  .Container_Menu_Burger {
+    width:38px;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+
+  #Menu_Burger_Close{
+    margin-left: 86%;
+    margin-top: 6%;
+    width:31px;
+  }
+
+  .Container_Button {
+    width:70%;
+    margin-right: -19%;
+    margin-top: 10%;
+  }
+
+  .Menu_Burger_List {
+    margin:45% 0 0 0;
+  }
+
+  .Container_Footer {
+    padding-top: 120%;
+  }
+}
