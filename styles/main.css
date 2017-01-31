@@ -164,6 +164,11 @@ a:hover {
   padding:0 0 0 32px;
 }
 
+#Text_Button_Left {
+  margin:0;
+  padding:0 0 0 32px;
+}
+
 .Img_Button {
   margin-left: 6%;
 }
@@ -185,7 +190,7 @@ a:hover {
 }
 
 .-active {
-  overflow: visible;
+  overflow: visible!important;
 }
 
 #Gala {
@@ -202,10 +207,31 @@ a:hover {
   z-index: 99;
 }
 
+#Reditum {
+  margin-left: -55%;
+  margin-top: -5%;
+  width:180%;
+  z-index: 99;
+}
+
+#AirFrance {
+  margin-left: -45%;
+  margin-top: -5%;
+  width:190%;
+  z-index: 99;
+}
+
+#JardinOrange {
+  margin-left: -5%;
+  margin-top: -5%;
+  width:160%;
+  z-index: 99;
+}
+
 /* Footer */
 
 .Container_Footer {
-  padding-top: 15%;
+  padding-top: 5%;
   font-family: 'Playfair Display';
   font-weight: 400;
   font-size: 0.8em;
@@ -275,7 +301,7 @@ a:hover {
   font-family: 'Playfair Display';
   font-weight: 700;
   font-size:3.5em;
-  margin: 20% 0 0 0;
+  margin: 13% 0 0 0;
   padding:0;
   color: #191919;
 }
@@ -329,13 +355,17 @@ a:hover {
   margin-left: 16.2%;
 }
 
-.-active {
-  overflow: visible;
-}
-
 .Container_Image_Left img {
   margin-left: -45%;
   margin-top: -5%;
   width:170%;
   z-index: 99;
+}
+
+.Container_Image_Works {
+  width: 30%;
+  overflow: hidden;
+  z-index: 99;
+  height:530px;
+  margin-left: 46%;
 }

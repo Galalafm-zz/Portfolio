@@ -9,11 +9,12 @@
     margin-left: 46%;
   }
 
-  .-active {
-    overflow: visible;
+  .Container_Image_Works {
+    width: 35%;
+    margin-left: 46%;
   }
 
-  .Container_Image img {
+  #Gala #Boucheron #Reditum #AirFrance {
     margin-top: -4%;
     width:180%;
   }
@@ -47,9 +48,6 @@
     padding:0 0 0 35px;
   }
 
-  .Container_Footer {
-    padding-top: 18%;
-  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -64,7 +62,7 @@
     margin-top: -4%;
   }
 
-  .Container_Image img {
+  #Gala #Boucheron {
     margin-top: -5%;
     margin-left: -47%;
     width:190%;
@@ -91,7 +89,7 @@
   }
 
   .Container_Footer {
-    padding-top: 23%;
+    padding-top: 8%;
   }
 }
 
@@ -109,7 +107,7 @@
     margin-top: -2%;
   }
 
-  .Container_Image img {
+  #Gala #Boucheron {
     margin-top: -2%;
     margin-left: -53%;
     width:199%;
@@ -141,8 +139,6 @@
     width:34%;
   }
 
-  .Container_Footer {
-    padding-top: 24%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -159,7 +155,7 @@
     margin-top: -4.8%;
   }
 
-  .Container_Image img {
+  #Gala #Boucheron {
     margin-top: 0%;
     margin-left: -55%;
     width:200%;
@@ -193,9 +189,6 @@
     font-size:1.4em;
   }
 
-  .Container_Footer {
-    padding-top: 31%;
-  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -218,7 +211,13 @@
     margin-top:-5%;
   }
 
-  .Container_Image img {
+  .Container_Image_Works {
+    width:40%;
+    margin:auto;
+    margin-top:-5%;
+  }
+
+  #Gala #Boucheron {
     margin-top: -10%;
     margin-left: -45%;
     width:180%;
@@ -292,7 +291,7 @@
   }
 
   .Container_Footer {
-    padding-top: 43%;
+    padding-top: 14%;
   }
 }
 
@@ -316,7 +315,7 @@
   }
 
   .Container_Footer {
-    padding-top: 45%;
+    padding-top: 15%;
   }
 }
 
@@ -347,7 +346,7 @@
   }
 
   .Container_Footer {
-    padding-top: 47%;
+    padding-top: 16%;
   }
 }
 
@@ -367,7 +366,13 @@
     margin-top:-5%;
   }
 
-  .Container_Image img {
+  .Container_Image_Works {
+    width:45%;
+    margin:auto;
+    margin-top:-5%;
+  }
+
+  #Gala #Boucheron {
     margin-top: -10%;
     margin-left: -45%;
     width:180%;
@@ -386,7 +391,7 @@
   }
 
   .Container_Footer {
-    padding-top: 52%;
+    padding-top: 17%;
   }
 }
 
@@ -414,6 +419,10 @@
     width:50%;
   }
 
+  .Container_Image_Works {
+    width:50%;
+  }
+
   .Container_Text {
     margin-top: 44.8%;
   }
@@ -427,7 +436,7 @@
   }
 
   .Container_Footer {
-    padding-top: 55%;
+    padding-top: 18%;
   }
 }
 
@@ -453,6 +462,10 @@
     width:70%;
   }
 
+  .Container_Image_Works {
+    width:70%;
+  }
+
   .Container_Menu_Burger {
     width:45px;
   }
@@ -474,7 +487,7 @@
   }
 
   .Container_Footer {
-    padding-top: 68%;
+    padding-top: 24%;
   }
 }
 
@@ -489,7 +502,7 @@
   }
 
   .Container_Footer {
-    padding-top: 70%;
+    padding-top: 25%;
   }
 
   .Menu_Burger_List {
@@ -511,6 +524,10 @@
 @media screen and (max-width: 450px) {
 
   .Container_Image {
+    width:80%;
+  }
+
+  .Container_Image_Works {
     width:80%;
   }
 
@@ -536,7 +553,7 @@
   }
 
   .Container_Footer {
-    padding-top: 80%;
+    padding-top: 27%;
   }
 }
 
@@ -551,12 +568,17 @@
     margin-top: -20%;
   }
 
+  .Container_Image_Works {
+    width:70%;
+    margin-top: -5%;
+  }
+
   .Container_Text {
     margin-top: 58.1%;
   }
 
   .Container_Text_Works {
-    margin-top: 58.1%;
+    margin-top: 65.1%;
   }
 
   .Container_Menu_Burger {
@@ -582,7 +604,7 @@
   }
 
   .Container_Footer {
-    padding-top: 100%;
+    padding-top: 50%;
   }
 }
 
@@ -595,6 +617,11 @@
   .Container_Image {
     width:70%;
     margin-top: -20%;
+  }
+
+  .Container_Image_Works {
+    width:70%;
+    margin-top: -10%;
   }
 
   .Container_Text {
@@ -628,6 +655,6 @@
   }
 
   .Container_Footer {
-    padding-top: 120%;
+    padding-top: 60%;
   }
 }
