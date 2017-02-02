@@ -202,8 +202,8 @@ a:hover {
 
 #Boucheron {
   margin-left: -45%;
-  margin-top: -5%;
-  width:140%;
+  margin-top: -4%;
+  width:145%;
   z-index: 99;
 }
 
@@ -228,6 +228,13 @@ a:hover {
   z-index: 99;
 }
 
+#Hermes {
+  margin-left: -55%;
+  margin-top: -7%;
+  width:150%;
+  z-index: 99;
+}
+
 /* Footer */
 
 .Container_Footer {
@@ -245,7 +252,7 @@ a:hover {
   z-index: -10;
   position:relative;
   width:46.05%;
-  margin-top: -0.8%;
+  margin-top: 1%;
 }
 
 /** WORKS **/
