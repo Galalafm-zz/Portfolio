@@ -235,6 +235,13 @@ a:hover {
   z-index: 99;
 }
 
+#H2O {
+  margin-left: -5%;
+  margin-top: -5%;
+  width:160%;
+  z-index: 99;
+}
+
 /* Footer */
 
 .Container_Footer {
