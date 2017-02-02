@@ -1,3 +1,3 @@
-# Gala Pillot's Portefolio
+# Gala Pillot's Portfolio
 
-My personal portefolio, made in 2016.
+My personal portfolio, made in 2017.
