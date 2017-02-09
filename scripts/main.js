@@ -2,7 +2,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		imageWorks1 = document.querySelector('.work1'), // images works
 		imageWorks2 = document.querySelector('.work2'),
 		imageWorks3 = document.querySelector('.work3'),
-		allImageWorks = [imageWorks1, imageWorks2, imageWorks3],
+		imageWorks4 = document.querySelector('.work4'),
+		allImageWorks = [imageWorks1, imageWorks2, imageWorks3, imageWorks4],
 		imageLeft1 = document.querySelector('.imgL1'), // images left
 		imageLeft2 = document.querySelector('.imgL2'),
 		imageLeft3 = document.querySelector('.imgL3'),
@@ -11,7 +12,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		bio1 = document.querySelector('.bio1'), // bios works
 		bio2 = document.querySelector('.bio2'),
 		bio3 = document.querySelector('.bio3'),
-		allBio = [bio1, bio2, bio3],
+		bio4 = document.querySelector('.bio4'),
+		allBio = [bio1, bio2, bio3, bio4],
 		bioL1 = document.querySelector('.bioL1'), // bios left
 		bioL2 = document.querySelector('.bioL2'),
 		bioL3 = document.querySelector('.bioL3'),
@@ -20,7 +22,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		button1 = document.querySelector('.button1'), // buttons works
 		button2 = document.querySelector('.button2'),
 		button3 = document.querySelector('.button3'),
-		allButton = [button1, button2, button3],
+		button4 = document.querySelector('.button4'),
+		allButton = [button1, button2, button3, button4],
 		buttonL1 = document.querySelector('.buttonL1'), // buttons left
 		buttonL2 = document.querySelector('.buttonL2'),
 		buttonL3 = document.querySelector('.buttonL3'),
@@ -29,7 +32,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		textB1 = document.querySelector('.textB1'), // textB works
 		textB2 = document.querySelector('.textB2'),
 		textB3 = document.querySelector('.textB3'),
-		allTextB = [textB1, textB2, textB3],
+		textB4 = document.querySelector('.textB4'),
+		allTextB = [textB1, textB2, textB3, textB4],
 		textBL1 = document.querySelector('.textBL1'), // textB left
 		textBL2 = document.querySelector('.textBL2'),
 		textBL3 = document.querySelector('.textBL3'),
@@ -38,7 +42,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		imgB1 = document.querySelector('.imgB1'), // imgB works
 		imgB2 = document.querySelector('.imgB2'),
 		imgB3 = document.querySelector('.imgB3'),
-		allImgB = [imgB1, imgB2, imgB3],
+		imgB4 = document.querySelector('.imgB4'),
+		allImgB = [imgB1, imgB2, imgB3, imgB4],
 		imgBL1 = document.querySelector('.imgBL1'), // imgB left
 		imgBL2 = document.querySelector('.imgBL2'),
 		imgBL3 = document.querySelector('.imgBL3'),
@@ -50,7 +55,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	if (window.matchMedia("(max-width: 1200px)").matches){
 		buttonIn();
 		buttonInLeft();
-		imageWorks.classList.add("-active");
+		allImageWorks.forEach(function(e){
+			e.classList.add("-active");
+		});
+		allImgL.forEach(function(e){
+			e.classList.add("-active");
+		});
 	}
 });
 

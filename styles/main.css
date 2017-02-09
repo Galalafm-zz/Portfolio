@@ -242,10 +242,25 @@ a:hover {
   z-index: 99;
 }
 
+#Oscars {
+  margin-left: -65%;
+  margin-top: -7%;
+  width:170%;
+  z-index: 99;
+}
+
 /* Footer */
 
 .Container_Footer {
   padding-top: 5%;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #747274;
+}
+
+.Container_Footer_Works {
+  margin-top: -3%;
   font-family: 'Playfair Display';
   font-weight: 400;
   font-size: 0.8em;
@@ -382,4 +397,8 @@ a:hover {
   z-index: 99;
   height:530px;
   margin-left: 46%;
+}
+
+.bio4 {
+  margin-top: -13%;
 }

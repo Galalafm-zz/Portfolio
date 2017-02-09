@@ -14,9 +14,19 @@
     margin-left: 46%;
   }
 
-  #Gala #Boucheron #Reditum #AirFrance {
+  .Container_Image_Left {
+    width: 31%;
+    margin-left: 15%;
+  }
+
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -4%;
     width:180%;
+  }
+
+  #Oscars {
+    width:170%;
+    margin-top: -11%;
   }
 
   .Container_Text {
@@ -27,6 +37,10 @@
   .Container_Text_Works {
     width:28%;
     margin-left: 15%;
+  }
+
+  .Container_Text_Left {
+    width:28%;
   }
 }
 
@@ -48,6 +62,11 @@
     padding:0 0 0 35px;
   }
 
+  #Oscars {
+    width:170%;
+    margin-top: -7%;
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -62,10 +81,15 @@
     margin-top: -4%;
   }
 
-  #Gala #Boucheron {
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -5%;
     margin-left: -47%;
     width:190%;
+  }
+
+  #Oscars {
+    width:165%;
+    margin-top: -6%;
   }
 
   .Container_Text h1 {
@@ -107,10 +131,15 @@
     margin-top: -2%;
   }
 
-  #Gala #Boucheron {
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -2%;
     margin-left: -53%;
     width:199%;
+  }
+
+  #Oscars {
+    width:170%;
+    margin-top: -5%;
   }
 
   .Container_Text h1 {
@@ -155,10 +184,15 @@
     margin-top: -4.8%;
   }
 
-  #Gala #Boucheron {
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: 0%;
     margin-left: -55%;
     width:200%;
+  }
+
+  #Oscars {
+    width:170%;
+    margin-top: -5%;
   }
 
   .Container_Text h1 {
@@ -217,10 +251,15 @@
     margin-top:-5%;
   }
 
-  #Gala #Boucheron {
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -10%;
     margin-left: -45%;
     width:180%;
+  }
+
+  #Oscars {
+    width:160%;
+    margin-left: -45%;
   }
 
   .Container_Text {
@@ -372,10 +411,15 @@
     margin-top:-5%;
   }
 
-  #Gala #Boucheron {
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O{
     margin-top: -10%;
     margin-left: -45%;
     width:180%;
+  }
+
+  #Oscars {
+    width:150%;
+    margin-left: -45%;
   }
 
   .Container_Text {
@@ -642,6 +686,17 @@
     margin-left: 86%;
     margin-top: 6%;
     width:31px;
+  }
+
+  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
+    margin-top: -10%;
+    margin-left: -45%;
+    width:180%;
+  }
+
+  #Oscars {
+    width:150%;
+    margin-left: -45%;
   }
 
   .Container_Button {
