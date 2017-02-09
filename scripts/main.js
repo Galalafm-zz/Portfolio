@@ -51,8 +51,8 @@ var image = document.querySelector('.Container_Image'), // image index
 		container = document.querySelector('.Container'),
 		burger = document.querySelector('.Menu_Burger');
 
-document.addEventListener("DOMContentLoaded", function(event) {
-	if (window.matchMedia("(max-width: 1200px)").matches){
+window.addEventListener('resize', function(){
+	if (window.matchMedia("(max-width: 1100px)").matches){
 		buttonIn();
 		buttonInLeft();
 		allImageWorks.forEach(function(e){
@@ -62,12 +62,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			e.classList.add("-active");
 		});
 	}
-});
+	if (window.matchMedia("(min-width: 1100px)").matches){
+		buttonOut();
+		buttonOutLeft();
+		allImageWorks.forEach(function(e){
+			e.classList.remove("-active");
+		});
+		allImgL.forEach(function(e){
+			e.classList.remove("-active");
+		});
+	}
+}, true);
 
 // Transition
 
 function transitionIn(){
-	if (window.matchMedia("(min-width: 1200px)").matches){
+	if (window.matchMedia("(min-width: 1100px)").matches){
 		if (image != null) {
 			// we are in index.html
 			image.classList.add("-active");
@@ -84,7 +94,7 @@ function transitionIn(){
 }
 
 function transitionInLeft(){
-	if (window.matchMedia("(min-width: 1200px)").matches){
+	if (window.matchMedia("(min-width: 1100px)").matches){
 		allImgL.forEach(function(e){
 			e.classList.add("-active");
 		});
@@ -94,7 +104,7 @@ function transitionInLeft(){
 }
 
 function transitionOut(){
-	if (window.matchMedia("(min-width: 1200px)").matches){
+	if (window.matchMedia("(min-width: 1100px)").matches){
 		if (image != null) {
 			// we are in index.html
 			image.classList.remove("-active");
@@ -111,7 +121,7 @@ function transitionOut(){
 }
 
 function transitionOutLeft(){
-	if (window.matchMedia("(min-width: 1200px)").matches){
+	if (window.matchMedia("(min-width: 1100px)").matches){
 		allImgL.forEach(function(e){
 			e.classList.remove("-active");
 		});
