@@ -32,6 +32,10 @@
   .Container_Text_Left {
     width:28%;
   }
+
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:60%;
+  }
 }
 
 @media screen and (max-width: 1500px) {
@@ -56,6 +60,10 @@
 }
 
 @media screen and (max-width: 1400px) {
+
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:70%;
+  }
 
   .Container_Line2 {
     margin-top: -1.8%;
@@ -110,6 +118,11 @@
     width:23%;
   }
 
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:80%;
+    margin-left:5%;
+  }
+
   .Container_Line1 {
     margin-right: 10.7%;
   }
@@ -153,6 +166,11 @@
 
   .Container_Name {
     width:25%;
+  }
+
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:85%;
+    margin-left:5%;
   }
 
   .Container_Line1 {
@@ -229,6 +247,12 @@
 
   .Container_Name {
     width:28%;
+  }
+
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:100%;
+    margin-left:0%;
+    border:1px solid red;
   }
 
   .Container_Line1 {
@@ -554,6 +578,12 @@
 
   .Container {
     margin: 30px 30px 0px 20px;
+  }
+
+  .Container_Block5, .Container_Block4, .Container_Block3, .Container_Block2, .Container_Block1 {
+    width:100%;
+    background-position: bottom!important;
+    transition:none!important;
   }
 
   .Container_Button, .Container_Button_Left {

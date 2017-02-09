@@ -49,7 +49,12 @@ var image = document.querySelector('.Container_Image'), // image index
 		imgBL3 = document.querySelector('.imgBL3'),
 		allImgBL = [imgBL1, imgBL2, imgBL3],
 		container = document.querySelector('.Container'),
-		burger = document.querySelector('.Menu_Burger');
+		burger = document.querySelector('.Menu_Burger'),
+    socialnetwork1 = document.querySelector('.Container_Block1'),
+    socialnetwork2 = document.querySelector('.Container_Block2'),
+    socialnetwork3 = document.querySelector('.Container_Block3'),
+    socialnetwork4 = document.querySelector('.Container_Block4'),
+    socialnetwork5 = document.querySelector('.Container_Block5');
 
 window.addEventListener('resize', function(){
 	if (window.matchMedia("(max-width: 1100px)").matches){

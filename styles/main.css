@@ -267,6 +267,14 @@ a:hover {
   color: #747274;
 }
 
+.Container_Footer_About {
+  margin-top: 15%;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #747274;
+}
+
 .Container_Line2 {
   border-right:2px solid #191919;
   opacity:0.6;
@@ -401,4 +409,121 @@ a:hover {
 
 .bio4 {
   margin-top: -13%;
+}
+
+/** ABOUT **/
+
+.Container_Blocks_Up {
+  width:50%;
+  margin:-1% 0 0 18%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.Container_Blocks_Down {
+  width:50%;
+  margin:0 0 0 18%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.Container_Block1{
+  background-color: #005CFF;
+  width:250px;
+  margin:10px 10px 10px 10px;
+  height: 200px;
+}
+
+.Container_Block1:hover {
+  background-image:url("../images/behance.png");
+  background-size: cover;
+  background-position: right;
+  transition: background-position, 400ms;
+}
+
+.Container_Block2{
+  background-color: #55ACEE;
+  width:250px;
+  margin:10px 10px 10px 10px;
+  height: 250px;
+}
+
+.Container_Block2:hover {
+  background-image:url("../images/twitter.png");
+  background-size: cover;
+  background-position: bottom;
+  transition: background-position, 400ms;
+}
+
+.Container_Block3{
+  background-color: #F75E0E;
+  width:200px;
+  height: 200px;
+  margin:10px 10px 10px 10px;
+}
+
+.Container_Block3:hover {
+  background-image:url("../images/soundcloud.png");
+  background-size: cover;
+  background-position: left;
+  transition: background-position, 400ms;
+}
+
+.Container_Block4{
+  background-color: #4B2479;
+  width:200px;
+  height: 200px;
+  margin:10px 10px 10px 10px;
+}
+
+.Container_Block4:hover {
+  background-image:url("../images/github.png");
+  background-size:cover;
+  background-position: right;
+  transition: background-position, 400ms;
+}
+
+.Container_Block5{
+  background-color: #2F7BB1;
+  width:400px;
+  height: 400px;
+  margin:10px 10px 10px 10px;
+}
+
+.Container_Block5:hover {
+  background-image:url("../images/linkedin.png");
+  background-size: cover;
+  background-position: bottom;
+  transition: background-position, 400ms;
+}
+
+.Container_Text h3 {
+  margin:-100% 0 0 165%;
+  padding:0;
+  width:60%;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #191919;
+}
+
+.Container_Button_About {
+  width:11%;
+  height:50px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  font-family: 'Helvetica Neue','Lato';
+  font-weight: 500;
+  font-size: 0.9em;
+  padding:0;
+  margin: -19% 0 0 67.4%;
+  color: #191919;
+  text-transform: uppercase;
 }
