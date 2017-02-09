@@ -4,12 +4,7 @@
 
 @media screen and (max-width: 1600px) {
 
-  .Container_Image {
-    width: 35%;
-    margin-left: 46%;
-  }
-
-  .Container_Image_Works {
+  .Container_Image, .Container_Image_Works {
     width: 35%;
     margin-left: 46%;
   }
@@ -29,12 +24,7 @@
     margin-top: -11%;
   }
 
-  .Container_Text {
-    width:28%;
-    margin-left: 15%;
-  }
-
-  .Container_Text_Works {
+  .Container_Text, .Container_Text_Works {
     width:28%;
     margin-left: 15%;
   }
@@ -50,15 +40,11 @@
     margin-top: -1.5%;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     width:30%;
   }
 
-  .Container_Text_Works {
-    width:30%;
-  }
-
-  .Text_Button {
+  #Text_Button, #Text_Button_Left {
     padding:0 0 0 35px;
   }
 
@@ -81,7 +67,7 @@
     margin-top: -4%;
   }
 
-  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
+  #Gala #Boucheron #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -5%;
     margin-left: -47%;
     width:190%;
@@ -92,11 +78,16 @@
     margin-top: -6%;
   }
 
+  #Reditum {
+    width:185%;
+    margin-top: -6%;
+  }
+
   .Container_Text h1 {
     margin: 15% 0 0 0;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     width:31%;
   }
 
@@ -104,11 +95,7 @@
     margin: 15% 0 0 0;
   }
 
-  .Container_Text_Works {
-    width:31%;
-  }
-
-  .Text_Button {
+  #Text_Button, #Text_Button_Left {
     padding:0 0 0 33px;
   }
 
@@ -131,10 +118,15 @@
     margin-top: -2%;
   }
 
-  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #Hermes #H2O {
+  #Gala #Boucheron #AirFrance #JardinOrange #Hermes #H2O {
     margin-top: -2%;
     margin-left: -53%;
     width:199%;
+  }
+
+  #Reditum {
+    width:190%;
+    margin-top: -6%;
   }
 
   #Oscars {
@@ -142,29 +134,16 @@
     margin-top: -5%;
   }
 
-  .Container_Text h1 {
+  .Container_Text h1, .Container_Text_Works h1, .Container_Text_Left h1 {
     margin: 15% 0 0 -5%;
     font-size:3.5em;
   }
 
-  .Container_Text p {
+  .Container_Text p, .Container_Text_Works p, .Container_Text_Left p {
     width:70%;
   }
 
-  .Container_Text {
-    width:34%;
-  }
-
-  .Container_Text_Works h1 {
-    margin: 15% 0 0 -5%;
-    font-size:3.5em;
-  }
-
-  .Container_Text_Works p {
-    width:70%;
-  }
-
-  .Container_Text_Works {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     width:34%;
   }
 
@@ -195,30 +174,21 @@
     margin-top: -5%;
   }
 
-  .Container_Text h1 {
+  #Reditum {
+    width:200%;
+    margin-top: -4%;
+  }
+
+  .Container_Text h1, .Container_Text_Works h1, .Container_Text_Left h1 {
     margin: 15% 0 0 -5%;
     font-size:3em;
   }
 
-  .Container_Text h4 {
+  .Container_Text h4, .Container_Text_Works h4, .Container_Text_Left h4 {
     font-size:0.8em;
   }
 
-  .Container_Text p {
-    width:65%;
-    font-size:1.4em;
-  }
-
-  .Container_Text_Works h1 {
-    margin: 15% 0 0 -5%;
-    font-size:3em;
-  }
-
-  .Container_Text_Works h4 {
-    font-size:0.8em;
-  }
-
-  .Container_Text_Works p {
+  .Container_Text p, .Container_Text_Works p, .Container_Text_Left p {
     width:65%;
     font-size:1.4em;
   }
@@ -239,13 +209,7 @@
     border:0px;
   }
 
-  .Container_Image {
-    width:40%;
-    margin:auto;
-    margin-top:-5%;
-  }
-
-  .Container_Image_Works {
+  .Container_Image, .Container_Image_Works, .Container_Image_Left{
     width:40%;
     margin:auto;
     margin-top:-5%;
@@ -262,57 +226,44 @@
     margin-left: -45%;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works {
     width:60%;
     margin-top: 38.1%;
     position: absolute;
     z-index:1;
   }
-  .Container_Text h1 {
-    margin: 0% 0 0 10%;
-    font-size:3em;
-  }
 
-  .Container_Text h4 {
-    font-size:0.8em;
-    margin: 5% 0 0 15%;
-  }
-
-  .Container_Text p {
-    width:75%;
-    margin: 2% 0 0 15%;
-    font-size:1.2em;
-  }
-
-  .Container_Text_Works {
+  .Container_Text_Left {
     width:60%;
+    margin-left: 15%;
     margin-top: 38.1%;
     position: absolute;
     z-index:1;
   }
-  .Container_Text_Works h1 {
+
+  .Container_Text h1, .Container_Text_Works h1, .Container_Text_Left h1 {
     margin: 0% 0 0 10%;
     font-size:3em;
   }
 
-  .Container_Text_Works h4 {
+  .Container_Text h4, .Container_Text_Works h4, .Container_Text_Left h4 {
     font-size:0.8em;
     margin: 5% 0 0 15%;
   }
 
-  .Container_Text_Works p {
+  .Container_Text p, .Container_Text_Works p, .Container_Text_Left p {
     width:75%;
     margin: 2% 0 0 15%;
     font-size:1.2em;
   }
 
-  .Container_Text_Button {
+  .Container_Text_Button, .Container_Text_Button_Left {
     margin-top: 5%;
     display:flex;
     justify-content: flex-end;
   }
 
-  .Text_Button {
+  #Text_Button, #Text_Button_Left {
     margin:0;
     padding:0 0 0 32px;
   }
@@ -321,7 +272,7 @@
     margin-left: 6%;
   }
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:30%;
     height:50px;
     text-align: center;
@@ -341,15 +292,11 @@
     width:30%;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin-top: 37.5%;
   }
 
-  .Container_Text_Works {
-    margin-top: 37.5%;
-  }
-
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:34%;
   }
 
@@ -372,15 +319,11 @@
     font-size: 0.8em;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left{
     margin-top: 36.8%;
   }
 
-  .Container_Text_Works {
-    margin-top: 36.8%;
-  }
-
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:38%;
   }
 
@@ -399,13 +342,7 @@
     margin-top: -5%;
   }
 
-  .Container_Image {
-    width:45%;
-    margin:auto;
-    margin-top:-5%;
-  }
-
-  .Container_Image_Works {
+  .Container_Image, .Container_Image_Works, .Container_Image_Left {
     width:45%;
     margin:auto;
     margin-top:-5%;
@@ -422,15 +359,11 @@
     margin-left: -45%;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin-top: 41.1%;
   }
 
-  .Container_Text_Works {
-    margin-top: 41.1%;
-  }
-
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:42%;
   }
 
@@ -459,23 +392,15 @@
     margin-top: -5%;
   }
 
-  .Container_Image {
+  .Container_Image, .Container_Image_Works, .Container_Image_Left {
     width:50%;
   }
 
-  .Container_Image_Works {
-    width:50%;
-  }
-
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin-top: 44.8%;
   }
 
-  .Container_Text_Works {
-    margin-top: 44.8%;
-  }
-
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:48%;
   }
 
@@ -502,11 +427,7 @@
     margin-top: -8%;
   }
 
-  .Container_Image {
-    width:70%;
-  }
-
-  .Container_Image_Works {
+  .Container_Image, .Container_Image_Works, .Container_Image_Left {
     width:70%;
   }
 
@@ -514,19 +435,13 @@
     width:45px;
   }
 
-  .Container_Text {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin:auto;
     margin-top: 62%;
     width:80%;
   }
 
-  .Container_Text_Works {
-    margin:auto;
-    margin-top: 62%;
-    width:80%;
-  }
-
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:43%;
   }
 
@@ -541,7 +456,7 @@
     margin: 30px 30px 0px 20px;
   }
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:47%;
   }
 
@@ -556,7 +471,7 @@
 
 @media screen and (max-width: 500px) {
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:50%;
   }
 
@@ -567,11 +482,7 @@
 
 @media screen and (max-width: 450px) {
 
-  .Container_Image {
-    width:80%;
-  }
-
-  .Container_Image_Works {
+  .Container_Image, .Container_Image_Works, .Container_Image_Left {
     width:80%;
   }
 
@@ -579,11 +490,7 @@
     width:40px;
   }
 
-  .Container_Text {
-    margin-top: 68.1%;
-  }
-
-  .Container_Text_Works {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin-top: 68.1%;
   }
 
@@ -591,7 +498,7 @@
     margin:75% 0 0 0;
   }
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:59%;
     margin-right: -17%;
   }
@@ -612,7 +519,7 @@
     margin-top: -20%;
   }
 
-  .Container_Image_Works {
+  .Container_Image_Works, .Container_Image_Left {
     width:70%;
     margin-top: -5%;
   }
@@ -621,7 +528,7 @@
     margin-top: 58.1%;
   }
 
-  .Container_Text_Works {
+  .Container_Text_Works, .Container_Text_Left {
     margin-top: 65.1%;
   }
 
@@ -637,7 +544,7 @@
     width:31px;
   }
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:63%;
     margin-right: -19%;
     margin-top: 10%;
@@ -663,16 +570,12 @@
     margin-top: -20%;
   }
 
-  .Container_Image_Works {
+  .Container_Image_Works, .Container_Image_Left {
     width:70%;
     margin-top: -10%;
   }
 
-  .Container_Text {
-    margin-top: 58.1%;
-  }
-
-  .Container_Text_Works {
+  .Container_Text, .Container_Text_Works, .Container_Text_Left {
     margin-top: 58.1%;
   }
 
@@ -699,7 +602,7 @@
     margin-left: -45%;
   }
 
-  .Container_Button {
+  .Container_Button, .Container_Button_Left {
     width:70%;
     margin-right: -19%;
     margin-top: 10%;
