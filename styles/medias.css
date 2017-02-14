@@ -34,8 +34,24 @@
   }
 
   .Container_Blocks_Up, .Container_Blocks_Down {
-    width:60%;
+    width:55%;
+    border:1px solid green;
   }
+
+  .Container_Text h3 {
+    margin:-95% 0 0 180%;
+  }
+
+  .Container_Button_About {
+    margin: -20% 0 0 73%;
+    margin: -20% 0 0 78%;
+    width:12%;
+  }
+
+  .Container_Blocks_Up {
+    margin:-2% 0 0 18%;
+  }
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -57,12 +73,31 @@
     margin-top: -7%;
   }
 
+  .Container_Blocks_Up, .Container_Blocks_Down {
+    width:60%;
+    border:2px solid red;
+  }
+
+  .Container_Blocks_Up {
+    margin:-3% 0 0 17%;
+  }
+
+  .Container_Text h3 {
+    margin:-99% 0 0 181%;
+  }
+
+  .Container_Button_About {
+    margin: -23% 0 0 78%;
+    width:13%;
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
 
   .Container_Blocks_Up, .Container_Blocks_Down {
-    width:70%;
+    width:60%;
+    border:2px solid red;
   }
 
   .Container_Line2 {

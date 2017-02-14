@@ -194,7 +194,7 @@ a:hover {
 }
 
 #Gala {
-  margin-left: -45%;
+  margin-left: -60%;
   margin-top: -5%;
   width:180%;
   z-index: 99;
@@ -434,73 +434,68 @@ a:hover {
 }
 
 .Container_Block1{
-  background-color: #005CFF;
+  background-image:url("../images/behance.png");
+  background-size: cover;
+  background-position: right;
   width:250px;
   margin:10px 10px 10px 10px;
   height: 200px;
 }
 
 .Container_Block1:hover {
-  background-image:url("../images/behance.png");
-  background-size: cover;
-  background-position: right;
-  transition: background-position, 400ms;
+  background-image: url('../images/carrebehance.png');
 }
 
 .Container_Block2{
-  background-color: #55ACEE;
+  background-image:url("../images/twitter.png");
+  background-size: cover;
+  background-position: bottom;
   width:250px;
   margin:10px 10px 10px 10px;
   height: 250px;
 }
 
 .Container_Block2:hover {
-  background-image:url("../images/twitter.png");
-  background-size: cover;
-  background-position: bottom;
-  transition: background-position, 400ms;
+  background-image: url('../images/carretwitter.png');
 }
 
 .Container_Block3{
-  background-color: #F75E0E;
   width:200px;
+  background-image:url("../images/soundcloud.png");
+  background-size: cover;
+  background-position: left;
   height: 200px;
   margin:10px 10px 10px 10px;
 }
 
 .Container_Block3:hover {
-  background-image:url("../images/soundcloud.png");
-  background-size: cover;
-  background-position: left;
-  transition: background-position, 400ms;
+  background-image: url('../images/carresc.png');
 }
 
 .Container_Block4{
-  background-color: #4B2479;
+  background-image:url("../images/github.png");
+  background-size:cover;
+  background-position: right;
   width:200px;
   height: 200px;
   margin:10px 10px 10px 10px;
 }
 
 .Container_Block4:hover {
-  background-image:url("../images/github.png");
-  background-size:cover;
-  background-position: right;
-  transition: background-position, 400ms;
+  background-image: url('../images/carregithub.png');
 }
 
 .Container_Block5{
-  background-color: #2F7BB1;
+  background-image:url("../images/linkedin.png");
+  background-size: cover;
+  background-position: bottom;
   width:400px;
   height: 400px;
   margin:10px 10px 10px 10px;
 }
 
 .Container_Block5:hover {
-  background-image:url("../images/linkedin.png");
-  background-size: cover;
-  background-position: bottom;
-  transition: background-position, 400ms;
+  background-image: url('../images/carrelinkedin.png');
 }
 
 .Container_Text h3 {
