@@ -340,6 +340,7 @@
 
   #Hermes {
     margin-left: -45%;
+    width:150%;
   }
 
   #Reditum {
@@ -383,7 +384,7 @@
     font-size:1.2em;
   }
 
-  .bioL1, .bio3 {
+  .bioL1 {
     margin-top: 4%;
   }
 
@@ -392,7 +393,15 @@
   }
 
   .bio2 {
-    margin-top: 0.4%;
+    margin-top: 4%;
+  }
+
+  .bio1, .bio3 {
+    margin-top: 14%;
+  }
+
+  .bioL2, .bioL3 {
+    margin-top: 22%;
   }
 
   .Container_Text_Button, .Container_Text_Button_Left {
@@ -692,11 +701,11 @@
 
   .work1 {
     width:70%;
-    margin-top: -5%!important;
+    margin-top: -15%!important;
   }
 
   .Container_Image_Works, .Container_Image_Left {
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .Container_Text {
@@ -707,18 +716,34 @@
     margin-top: 65.1%;
   }
 
+  .Container_Text_Works h1, .Container_Text_Left h1{
+    font-size: 2.5em;
+  }
+
   .Container_Menu_Burger {
     width:38px;
     margin-top: 10%;
     margin-left: 30%;
   }
 
-  .bio3 {
-    margin-top: 12%;
+  .bio1 {
+    margin-top: 15%;
   }
 
-  .bio2 {
-    margin-top: -2%;
+  .bio3 {
+    margin-top: 25%;
+  }
+
+  .bioL1 {
+    margin-top: 3%;
+  }
+
+  .bio2, .bioL3, .bio4 {
+    margin-top: 10%;
+  }
+
+  .bioL2 {
+    margin-top: 10%;
   }
 
   #Menu_Burger_Close{
@@ -755,11 +780,15 @@
 
   .Container_Image_Works, .Container_Image_Left {
     width:70%;
-    margin-top: -10%;
+    margin-top: 15%;
   }
 
   .Container_Text, .Container_Text_Works, .Container_Text_Left {
-    margin-top: 75.1%;
+    margin-top: 76.1%;
+  }
+
+  .Container_Text_Works h1, .Container_Text_Left h1 {
+    font-size: 2.5em;
   }
 
   .Container_Menu_Burger {
@@ -797,5 +826,21 @@
 
   .Container_Footer {
     padding-top: 60%;
+  }
+
+  .bio1, .bio3 {
+    margin-top: 3%;
+  }
+
+  .bioL1 {
+    margin-top: -10%;
+  }
+
+  .bio2, .bioL3, .bio4 {
+    margin-top: -8%;
+  }
+
+  .bioL2 {
+    margin-top: -17%;
   }
 }
