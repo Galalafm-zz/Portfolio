@@ -218,7 +218,7 @@
 
   #Gala {
     margin-top: 0%;
-    margin-left: -55%;
+    margin-left: -70%;
     width:200%;
   }
 
@@ -321,9 +321,15 @@
     margin-left:14%;
   }
 
-  #Gala #Boucheron #Reditum #AirFrance #JardinOrange #H2O {
+  #Boucheron #Reditum #AirFrance #JardinOrange #H2O {
     margin-top: -10%;
     margin-left: -45%;
+    width:180%;
+  }
+
+  #Gala {
+    margin-top: -10%;
+    margin-left: -60%;
     width:180%;
   }
 
@@ -694,7 +700,7 @@
   }
 
   .Container_Text {
-    margin-top: 58.1%;
+    margin-top: 70.1%;
   }
 
   .Container_Text_Works, .Container_Text_Left {
@@ -743,7 +749,7 @@
   }
 
   .Container_Image {
-    width:70%;
+    width:80%;
     margin-top: -20%;
   }
 
@@ -753,7 +759,7 @@
   }
 
   .Container_Text, .Container_Text_Works, .Container_Text_Left {
-    margin-top: 58.1%;
+    margin-top: 75.1%;
   }
 
   .Container_Menu_Burger {

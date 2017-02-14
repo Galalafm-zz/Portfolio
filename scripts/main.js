@@ -51,6 +51,19 @@ var image = document.querySelector('.Container_Image'), // image index
 		container = document.querySelector('.Container'),
 		burger = document.querySelector('.Menu_Burger');
 
+document.addEventListener("DOMContentLoaded", function(event) {
+  if (window.matchMedia("(max-width: 1100px)").matches){
+		buttonIn();
+		buttonInLeft();
+		allImageWorks.forEach(function(e){
+			e.classList.add("-active");
+		});
+		allImgL.forEach(function(e){
+			e.classList.add("-active");
+		});
+  }
+})
+
 window.addEventListener('resize', function(){
 	if (window.matchMedia("(max-width: 1100px)").matches){
 		buttonIn();
