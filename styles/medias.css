@@ -748,6 +748,12 @@
 
 @media screen and (max-width: 550px) {
 
+  a {
+    width:100%;
+    margin:0 0 0 -6%;
+    padding:0;
+  }
+
   .Container {
     margin: 30px 30px 0px 20px;
   }
@@ -976,7 +982,7 @@
   .bioL2 {
     margin-top: -17%;
   }
-  
+
   .Container_Button_About {
     margin-top: 50%!important;
     margin-left: 47%!important;
