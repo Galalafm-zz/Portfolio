@@ -56,7 +56,11 @@ li a:hover {
 
 .Container_Header {
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   justify-content: space-between;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
 }
 
 .Container_Name {
@@ -185,7 +189,11 @@ li a:hover {
   height:50px;
   text-align: center;
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
 }
 
 .Container_Image {
@@ -388,7 +396,11 @@ li a:hover {
   height:50px;
   text-align: center;
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
 }
 
 .Container_Image_Left {
@@ -433,20 +445,40 @@ li a:hover {
   width:50%;
   margin:1% 0 0 18%;
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
   align-items: flex-end;
+  -moz-align-items: flex-end;
+  -webkit-align-items: flex-end;
   align-content: center;
+  -moz-align-content: center;
+  -webkit-align-content: center;
 }
 
 .Container_Blocks_Down {
   width:50%;
   margin:0 0 0 18%;
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
   align-items: flex-start;
+  -moz-align-items: flex-start;
+  -webkit-align-items: flex-start;
   align-content: center;
+  -moz-align-content: center;
+  -webkit-align-content: center;
 }
 
 .Container_Block1{
@@ -529,7 +561,11 @@ li a:hover {
   height:50px;
   text-align: center;
   display:flex;
+  -moz-display:flex;
+  -webkit-display:flex;
   align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
   font-family: 'Helvetica Neue','Lato';
   font-weight: 500;
   font-size: 0.9em;
