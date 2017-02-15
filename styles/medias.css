@@ -1,7 +1,5 @@
 /** MEDIA QUERIES **/
 
-/* Home */
-
 @media screen and (max-width: 1600px) {
 
   .Container_Image, .Container_Image_Works {
@@ -1026,4 +1024,43 @@
   .work4 {
     margin-top: -10%!important;
   }
+
+}
+
+@media screen and (max-height: 600px) {
+
+  .Container {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .Container_Content {
+    margin-top: -1%;
+  }
+
+  .Container_Text {
+    margin-left: 22%;
+  }
+
+  .Container_Text h1{
+    font-size:3em;
+    margin-top: 3%;
+  }
+
+  .Container_Text h4{
+    font-size:0.8em;
+  }
+
+  .Container_Text p{
+    font-size:1.3em;
+  }
+
+  .Container_Image {
+    width: 20%;
+  }
+
+  .Container_Footer {
+    margin-top:-7%!important;
+    padding-top: 0!important;
+  }
+  
 }
