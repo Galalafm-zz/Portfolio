@@ -1074,7 +1074,7 @@
   }
 
   .Container_Image {
-    width: 30%;
+    width: 35%;
   }
 
   .Container_Footer {
@@ -1119,7 +1119,7 @@
   }
 
   .Container_Image {
-    width: 30%;
+    width: 35%;
   }
 
   .Container_Footer {
@@ -1147,12 +1147,12 @@
   }
 
   .Container_Text {
-    margin-left: 22%;
+    margin-left: 18%;
   }
 
   .Container_Text h1{
     font-size:3em;
-    margin-top: -22%;
+    margin-top: 3%;
   }
 
   .Container_Text h4{
