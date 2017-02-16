@@ -481,7 +481,7 @@ li a:hover {
 }
 
 .Container_Block1{
-  background-image:url("../images/behance.png");
+  background-image:url("../images/behance.jpg");
   background-size: cover;
   background-position: right;
   width:200px;
@@ -490,11 +490,11 @@ li a:hover {
 }
 
 .Container_Block1:hover {
-  background-image: url('../images/carrebehance.png');
+  background-image: url('../images/carrebehance.jpg');
 }
 
 .Container_Block2{
-  background-image:url("../images/twitter.png");
+  background-image:url("../images/twitter.jpg");
   background-size: cover;
   background-position: bottom;
   width:200px;
@@ -503,12 +503,12 @@ li a:hover {
 }
 
 .Container_Block2:hover {
-  background-image: url('../images/carretwitter.png');
+  background-image: url('../images/carretwitter.jpg');
 }
 
 .Container_Block3{
   width:150px;
-  background-image:url("../images/soundcloud.png");
+  background-image:url("../images/soundcloud.jpg");
   background-size: cover;
   background-position: left;
   height: 150px;
@@ -516,11 +516,11 @@ li a:hover {
 }
 
 .Container_Block3:hover {
-  background-image: url('../images/carresc.png');
+  background-image: url('../images/carresc.jpg');
 }
 
 .Container_Block4{
-  background-image:url("../images/github.png");
+  background-image:url("../images/github.jpg");
   background-size:cover;
   background-position: right;
   width:150px;
@@ -529,11 +529,11 @@ li a:hover {
 }
 
 .Container_Block4:hover {
-  background-image: url('../images/carregithub.png');
+  background-image: url('../images/carregithub.jpg');
 }
 
 .Container_Block5{
-  background-image:url("../images/linkedin.png");
+  background-image:url("../images/linkedin.jpg");
   background-size: cover;
   background-position: bottom;
   width:350px;
@@ -542,7 +542,7 @@ li a:hover {
 }
 
 .Container_Block5:hover {
-  background-image: url('../images/carrelinkedin.png');
+  background-image: url('../images/carrelinkedin.jpg');
 }
 
 .Container_Text h3 {
