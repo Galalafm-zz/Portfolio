@@ -2,7 +2,7 @@
 
 My personal portfolio, made in 2017.
 
-http://www.galapillot.com/
+View here : http://www.galapillot.com/
 
 ## Commit conventions
 
