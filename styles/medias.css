@@ -1089,6 +1089,27 @@
   #Container_Line_About {
     height:100px!important;
   }
+
+  #Boucheron {
+    width:165%;
+    margin-left:-60%;
+  }
+
+  #Reditum {
+    width:200%;
+  }
+
+  #JardinOrange, #H2O {
+    width:190%;
+  }
+
+  #Hermes {
+    width:160%;
+  }
+
+  .bioL1, .bioL2, .bio3 {
+    margin-top: -12%;
+  }
 }
 
 @media screen and (min-width: 900px) and (max-height: 800px) {
